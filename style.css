@@ -5,3 +5,9 @@
 .top-section .purchase-button {
   background-color: #e76f51;
 }
+span {
+  color: #e76f51;
+}
+.featured img:nth-child(odd) {
+  filter: grayscale(100%);
+}
