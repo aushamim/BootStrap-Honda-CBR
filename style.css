@@ -1,13 +1,21 @@
 .top-section {
   background-color: #264653;
-  padding: 100px;
 }
 .top-section .purchase-button {
   background-color: #e76f51;
 }
-span {
+.col-org {
   color: #e76f51;
 }
-.featured img:nth-child(odd) {
+.col-blue {
+  color: #23a6f0;
+}
+.featured div:nth-child(odd) img {
   filter: grayscale(100%);
+}
+.star-icon {
+  width: 20px;
+}
+.star-icon-blank {
+  width: 18px;
 }
